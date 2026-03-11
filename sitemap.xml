@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>https://atlamanpower.com/index.html</loc>
+        <priority>1.00</priority>
+    </url>
+    <url>
+        <loc>https://atlamanpower.com/about.html</loc>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://atlamanpower.com/services.html</loc>
+        <priority>0.90</priority>
+    </url>
+    <url>
+        <loc>https://atlamanpower.com/industries.html</loc>
+        <priority>0.90</priority>
+    </url>
+    <url>
+        <loc>https://atlamanpower.com/jobs.html</loc>
+        <priority>0.90</priority>
+    </url>
+    <url>
+        <loc>https://atlamanpower.com/contact.html</loc>
+        <priority>0.80</priority>
+    </url>
+    
+    <!-- Services Detail Pages -->
+    <url><loc>https://atlamanpower.com/manpower-supply.html</loc><priority>0.70</priority></url>
+    <url><loc>https://atlamanpower.com/labour-contract.html</loc><priority>0.70</priority></url>
+    <url><loc>https://atlamanpower.com/international-recruitment.html</loc><priority>0.70</priority></url>
+    <url><loc>https://atlamanpower.com/tourism-services.html</loc><priority>0.70</priority></url>
+    <url><loc>https://atlamanpower.com/import-export.html</loc><priority>0.70</priority></url>
+    <url><loc>https://atlamanpower.com/education-skill.html</loc><priority>0.70</priority></url>
+
+    <!-- Industries Detail Pages -->
+    <url><loc>https://atlamanpower.com/construction.html</loc><priority>0.70</priority></url>
+    <url><loc>https://atlamanpower.com/manufacturing.html</loc><priority>0.70</priority></url>
+    <url><loc>https://atlamanpower.com/warehouse.html</loc><priority>0.70</priority></url>
+    <url><loc>https://atlamanpower.com/agriculture.html</loc><priority>0.70</priority></url>
+    <url><loc>https://atlamanpower.com/logistics.html</loc><priority>0.70</priority></url>
+</urlset>

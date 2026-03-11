@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Get in touch with ATLA Manpower for manpower supply, business support, and tourism services in Uzbekistan.">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Contact Us | ATLA Manpower">
+    <meta property="og:description" content="Discuss your manpower and business support needs with our professional team in Tashkent.">
+
+    <title>Contact Us | ATLA Manpower</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/Logo.png">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css?v=11.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar scrolled" id="navbar" style="background-color: var(--bg-main); box-shadow: var(--shadow-sm);">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <img src="assets/Logo.png" alt="ATLA Manpower" class="logo-img" style="height: 50px;">
+            </a>
+            <ul class="nav-links">
+                <li><a href="index.html" style="color:var(--primary)">Home</a></li>
+                <li><a href="about.html" style="color:var(--primary)">About Us</a></li>
+                <li><a href="services.html" style="color:var(--primary)">Services</a></li>
+                <li><a href="industries.html" style="color:var(--primary)">Industries</a></li>
+                <li><a href="jobs.html" style="color:var(--primary)">Jobs</a></li>
+                <li><a href="contact.html" class="btn btn-primary btn-sm">Contact Us</a></li>
+            </ul>
+            <button class="mobile-menu-btn" aria-label="Toggle menu" style="color:var(--primary)">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <section class="contact section" id="contact" style="padding-top: 10rem;">
+        <div class="container contact-container">
+            <div class="contact-info fade-in-section">
+                <div class="section-tag">Get In Touch</div>
+                <h1 class="section-title">Let's Discuss Your Needs</h1>
+                <p>Whether you need a dedicated workforce, comprehensive logistics support, or assistance with business travel in Uzbekistan, our team is ready to assist you closely.</p>
+                
+                <div class="contact-methods" style="margin-top: 3rem;">
+                    <div class="contact-item">
+                        <div class="icon-box"><i class="fas fa-map-marker-alt"></i></div>
+                        <div class="item-details">
+                            <h4>Head Office</h4>
+                            <p>Shota Rustaveli 30, Apartment 13<br>Tashkent, Uzbekistan</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="icon-box"><i class="fas fa-phone-alt"></i></div>
+                        <div class="item-details">
+                            <h4>Phone</h4>
+                            <p>+998 90 177 93 01</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="icon-box"><i class="fas fa-envelope"></i></div>
+                        <div class="item-details">
+                            <h4>Email</h4>
+                            <p>info.atlagroup@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="map-wrapper fade-in-section delay-2" style="margin-top: 3rem; border-radius: var(--radius-lg); overflow: hidden; box-shadow: var(--shadow-md); height: 300px;">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2997.46554558!2d69.256!3d41.299!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDHCsDE3JzU2LjQiTiA2OcKwMTUnMjEuNiJF!5e0!3m2!1sen!2suz!4v1710150000000!5m2!1sen!2suz" 
+                        width="100%" 
+                        height="100%" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+            </div>
+            
+            <div class="contact-form-wrapper fade-in-section delay-1">
+                <form class="contact-form" id="contactForm" action="https://formspree.io/f/mjvnrqre" method="POST">
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" name="name" placeholder="John Doe" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" placeholder="john@example.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="service">Interested Service</label>
+                        <select id="service" name="service">
+                            <option value="manpower">Manpower Supply</option>
+                            <option value="tourism">Tourism Services</option>
+                            <option value="import-export">Import-Export</option>
+                            <option value="other">Other Inquiry</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="4" placeholder="How can we help you?" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+                    <div id="formStatus" class="form-status"></div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-brand">
+                <a href="index.html" class="logo footer-logo">
+                    <img src="assets/Logo.png" alt="ATLA Manpower" class="logo-img" style="height: 50px;">
+                </a>
+            </div>
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="industries.html">Industries</a></li>
+                    <li><a href="jobs.html">Jobs</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container text-center">
+                <p>&copy; 2024 ATLA Manpower. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <a href="https://t.me/atlagroup" class="contact-float telegram-float" target="_blank">
+        <i class="fab fa-telegram-plane"></i>
+    </a>
+
+    <a href="https://wa.me/998901779301" class="contact-float whatsapp-float" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>
