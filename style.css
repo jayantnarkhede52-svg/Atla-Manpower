@@ -322,6 +322,37 @@ img {
     color: var(--primary);
 }
 
+.nav-social {
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+
+.nav-social a {
+    color: white;
+    font-size: 1.1rem;
+    transition: all var(--transition-base);
+    opacity: 0.8;
+}
+
+.navbar.scrolled .nav-social a {
+    color: var(--primary);
+}
+
+.nav-social a:hover {
+    color: var(--accent);
+    transform: translateY(-2px);
+    opacity: 1;
+}
+
+@media (max-width: 991px) {
+    .nav-social {
+        display: none; /* Hide in header on tablet/mobile to avoid crowding */
+    }
+}
+
 /* ==========================================================================
    Hero Section
    ========================================================================== */
